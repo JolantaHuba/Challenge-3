@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Challenge 3</title>
+</head>
+
+<body>
+    <nav class="nav__top">
+        <div class="nav__wrapper">
+            <a class="logo" href="#">
+                <img class="logo__img" src="img/logo-top.png" alt="Our logo: white leaf on green background">Treehouse
+            </a>
+            <button class="nav__button"
+                aria-label="Menu"><span class="nav__icon show fas fa-bars"></span><span class="nav__icon fas fa-times"></span></button>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#header" class="nav__link js__home">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link js__about">About</a></li>
+                <li class="nav__item"><a href="#blog" class="nav__link js__blog">Blog</a></li>
+                <li class="nav__item"><a href="#portfolio" class="nav__link js__portfolio">Portfolio</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link js__contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header" id="header">
+        <h1 class="header__title">Creative digital solutions</h1>
+        <p class="header__text">Proin iaculis purus consequat sem cure.</p>
+        <a href="#portfolio" class="btn">View portfolio</a>
+    </header>
+
+    <section class="services" id="about">
+        <header class="services__header">
+            <h2 class="secondary-title">Professional services</h2>
+            <p class="services__text">Proin iaculis purus consequat sem cure</p>
+        </header>
+        <div class="services__main">
+            <div class="service">
+                <img class="service__icon" src="img/icon-heart.png" alt="">
+                <h3 class="third-title">Beautiful design</h3>
+                <p class="service__info">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum
+                    suscipit aenean rhoncus posuere odio in tincidunt.</p>
+            </div>
+            <div class="service">
+                <img class="service__icon" src="img/icon-mobile.png" alt="">
+                <h3 class="third-title">Responsive web</h3>
+                <p class="service__info">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum
+                    suscipit aenean rhoncus posuere odio in tincidunt.</p>
+            </div>
+            <div class="service">
+                <img class="service__icon" src="img/icon-graph-services.png" alt="">
+                <h3 class="third-title">Marketing tools</h3>
+                <p class="service__info">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum
+                    suscipit aenean rhoncus posuere odio in tincidunt.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog" id="blog">
+        <div class="blog__gear"><img src="img/gear.png" alt=""></div>
+        <div class="blog__wrapper">
+            <h2 class="secondary-title secondary-title--blog">Just relax <span class="blog__char">&</span>
+                <br>
+                let us do the
+                heavy lifting</h2>
+            <p class="blog__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit
+                aenean rhoncus posuere odio in tincidunt.</p>
+            <ul class="blog__list">
+                <li class="blog__item">Initial Setup & Customizations</li>
+                <li class="blog__item">Regular Updates</li>
+                <li class="blog__item">Round The Clock Support</li>
+            </ul>
+            <a href="#portfolio" class="btn">Learn more</a>
+        </div>
+    </section>
+
+    <section class="project" id="portfolio">
+        <h2 class="secondary-title">Latest project</h2>
+        <p class="project__text">Proin iaculis purus consequat sem cure</p>
+        <div class="project__content">
+            <h3 class="third-title">Dveloping a framework</h3>
+            <p class="project__info">Proin iaculis purus consequat sem cure digni ssim donec porttitora
+                entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+            <div class="project__boxes">
+                <div class="box">
+                    <div class="icon__wrapper"> <img src="img/icon-basket.png" alt="" class="box__icon"></div>
+                    <div class="box__desc">
+                        <h4 class="fourth-title">E-Commerce Ready</h4>
+                        <p class="box__info">Proin iaculis purus consequat sem cure digni ssim.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon__wrapper"> <img src="img/icon-laptop.png" alt="" class="box__icon"></div>
+                    <div class="box__desc">
+                        <h4 class="fourth-title">Powerful SEO Features</h4>
+                        <p class="box__info">Proin iaculis purus consequat sem saon.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon__wrapper"><img src="img/icon-locked.png" alt="" class="box__icon"></div>
+                    <div class="box__desc">
+                        <h4 class="fourth-title">Secure Encryption</h4>
+                        <p class="box__info">Proin iaculis purus consequat sem cure digni ssim.</p>
+                    </div>
+                </div>
+            </div>
+            <p class="project__info">Proin iaculis purus consequat sem cure digni ssim donec porttitora
+                entum suscipit aenean rhoncus posuere saoin.</p>
+            <a class="project__link" href="#">View details <span class="arrow">&rarr;</span></a>
+        </div>
+        <img class="project__img" src="img/tablet.png" alt="">
+    </section>
+
+    <section class="values">
+        <h2 class="secondary-title">Culture & Values</h2>
+        <p class="values__text">Proin iaculis purus consequat.</p>
+        <div class="values__content">
+            <div class="value__box">
+                <img src="img/icon-music.png" alt="">
+                <h3 class="third-title">Work-life balance</h3>
+                <p class="value__info">Proin iaculis purus consequat sem cure digni ssim donec porttitora
+                    entum suscipit aenean rhoncus posuere saoin.</p>
+            </div>
+            <div class="first-line"></div>
+            <div class="value__box">
+                <img src="img/icon-graph.png" alt="">
+                <h3 class="third-title">Quality over quantity</h3>
+                <p class="value__info">Proin iaculis purus consequat sem cure digni ssim donec porttitora
+                    entum suscipit aenean rhoncus posuere saoin.</p>
+            </div>
+            <div class="second-line"></div>
+            <div class="value__box">
+                <img src="img/icon-star.png" alt="">
+                <h3 class="third-title">Deliver excelence</h3>
+                <p class="value__info">Proin iaculis purus consequat sem cure digni ssim donec porttitora
+                    entum suscipit aenean rhoncus posuere saoin.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="clients">
+        <h2 class="secondary-title">Our awesome clients</h2>
+        <p class="clients__text">Proin iaculis purus consequat sem cure.</p>
+        <div class="client__box">
+            <div class="client__img"></div>
+            <blockquote class="client__quote">
+                <p>"Proin iaculis purus consequat sem cure digni ssim donec porttitora
+                    entum suscipit aenean rhoncus posuere saoin."</p>
+                <cite class="client__author">- Proin iaculis</cite>
+            </blockquote>
+        </div>
+        <div class="client__box">
+            <div class="client__img client__img--even"></div>
+            <blockquote class="client__quote client__quote--even">
+                <p>"Proin iaculis purus consequat sem cure digni ssim donec porttitora
+                    entum suscipit aenean rhoncus posuere saoin."</p>
+                <cite class="client__author">- Proin iaculis</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="secondary-title secondary-title--contact">Ready to talk about your next project?</h2>
+        <a href="#" class="contact__btn">Contact us</a>
+    </section>
+
+    <section class="trust-us">
+        <div class="trust-us__box">
+            <img class="trust-us__logo" src="img/envato-logo.png" alt="Envato">
+            <img class="trust-us__logo" src="img/wordpress-logo.png" alt="WordPress">
+        </div>
+        <div class="trust-us__box">
+            <img class="trust-us__logo" src="img/aetuts-logo.png" alt="Aetuts">
+            <img class="trust-us__logo" src="img/microlancer-logo.png" alt="Microlancer">
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="info__box">
+            <h3 class="third-title third-title--info">Contact us</h3>
+            <div class="info__item info__item--contact">
+                <span class="info__icon fas fa-map-marker-alt"></span>
+                <address>
+                    <p class="info__text">55 Main St<br>Toronto, ON<br>M1H3A5</p>
+                </address>
+            </div>
+            <div class="info__item info__item--contact">
+                <span class="info__icon fas fa-mobile-alt"></span>
+                <p class="info__text">(+48)555-525-555</p>
+            </div>
+            <div class="info__item info__item--contact">
+                <span class="info__icon fas fa-envelope"></span>
+                <p class="info__text">hello@treehouse.com</p>
+            </div>
+        </div>
+
+        <div class="info__box">
+            <h3 class="third-title third-title--info">Latest posts</h3>
+            <div class="info__item info__item--posts">
+                <span class="info__icon fas fa-image"></span>
+                <p class="info__text">Made With Love In Toronto</p>
+            </div>
+            <div class="info__item info__item--posts">
+                <span class="info__icon fas fa-image"></span>
+                <p class="info__text">Made With Love In Toronto</p>
+            </div>
+            <div class="info__item info__item--posts">
+                <span class="info__icon fas fa-image"></span>
+                <p class="info__text">Made With Love In Toronto</p>
+            </div>
+            <div class="info__item info__item--posts">
+                <span class="info__icon fas fa-image"></span>
+                <p class="info__text">Made With Love In Toronto</p>
+            </div>
+            <div class="info__item info__item--posts">
+                <span class="info__icon fas fa-image"></span>
+                <p class="info__text">Made With Love In Toronto</p>
+            </div>
+        </div>
+
+        <div class="info__box">
+            <h3 class="third-title third-title--info">Latest tweets</h3>
+            <div class="info__item info__item--twitter">
+                <span class="info__icon fab fa-twitter"></span>
+                <div class="info__twitter">
+                    <a href="#" class="info__text info__text--twitter">Confucius: Life is really simple, but we insist on
+                        making
+                        it
+                        complicated.</a>
+                    <p class="info__text info__text--hash">#famousquotes</p>
+                    <p class="info__text info__text--time">8 mins ago</p>
+                </div>
+            </div>
+            <div class="info__item info__item--twitter">
+                <span class="info__icon fab fa-twitter"></span>
+                <div class="info__twitter">
+                    <a href="#" class="info__text info__text--twitter">Confucius: Life is really simple, but we insist on
+                        making
+                        it
+                        complicated.</a>
+                    <p class="info__text info__text--hash">#famousquotes</p>
+                    <p class="info__text info__text--time">8 mins ago</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <ul class="social__list">
+            <li class="social__item"><span class="social__icon fab fa-twitter"></span></li>
+            <li class="social__item"><span class="social__icon fab fa-twitter"></span></li>
+            <li class="social__item"><span class="social__icon fab fa-twitter"></span></li>
+            <li class="social__item"><span class="social__icon fab fa-twitter"></span></li>
+        </ul>
+        <p class="social__copy">&copy; Copyright 2019 | Coded by JH</p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
